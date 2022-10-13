@@ -1,68 +1,39 @@
 {
   "name": "sdc.financial_well_being_dev",
-  "count": 2,
-  "utc_audited": "2022-10-11 13:29:14",
+  "measure_not_found": [
+    "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Employment/data/distribution/va_tr_acs_2015_2019_emp_rate.csv.xz",
+    "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Personal Income/data/distribution/va_ct_bea_2015_2020_earnings_per_job.csv.xz"
+  ],
+  "count": 4,
+  "utc_audited": "2022-10-13 00:49:36",
   "data": [
+    {
+      "name": "measure_info.json",
+      "path": "Employment/data/distribution/measure_info.json",
+      "md5": "62ce8506078ecd73ca3e26b2f06e1890",
+      "size": 993
+    },
     {
       "name": "va_tr_acs_2015_2019_emp_rate.csv.xz",
       "path": "Employment/data/distribution/va_tr_acs_2015_2019_emp_rate.csv.xz",
       "md5": "35fcb3181e983499603d5c160ce32a74",
-      "size": 178072,
-      "measure_info": [
-        {
-          "category": "Employment/Workforce Development",
-          "measure_table": "civilian_employment_rate",
-          "full_name": "civilian_employment_rate:employment_rate",
-          "measure": "employment_rate",
-          "type": "percent",
-          "short_name": "Percentage employed",
-          "long_name": "Percentage civilian employed",
-          "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-          "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-          "statement": "{value} of the population in {features.name} is employed.",
-          "equity_category": "Status",
-          "sources": [
-            {
-              "name": "American Community Survey",
-              "location": "Table B23025",
-              "date_accessed": "2021",
-              "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-          ]
-        }
-      ]
+      "size": 178072
     },
     {
       "name": "va_ct_bea_2015_2020_earnings_per_job.csv.xz",
       "path": "Pay and Benefits/Personal Income/data/distribution/va_ct_bea_2015_2020_earnings_per_job.csv.xz",
       "md5": "715c5be2c01baf9e201e52c28a6a0b5b",
-      "size": 12548,
-      "measure_info": [
-        {
-          "category": "Employment/Workforce Development",
-          "measure_table": "earnings_per_job",
-          "full_name": "earnings_per_job:earnings_per_job",
-          "measure": "earnings_per_job",
-          "type": "dollar",
-          "short_name": "Earnings per job",
-          "long_name": "Earnings per job",
-          "short_description": "Average of earnings per job.",
-          "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-          "statement": "Earnings per job in {features.name} is {value}.",
-          "equity_category": "Status",
-          "sources": [
-            {
-              "name": "Bureau of Economic Analysis",
-              "date_accessed": "2021",
-              "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-            }
-          ]
-        }
-      ]
+      "size": 12548
+    },
+    {
+      "name": "measure_info.json",
+      "path": "Pay and Benefits/Personal Income/data/distribution/measure_info.json",
+      "md5": "b390026cc622ca64fd2a767f155cf3da",
+      "size": 824
     }
   ],
   "measure_generated": [],
-  "measure_to_check": [],
-  "measures_found": 2,
+  "no_match_in_measures_info": [],
+  "measures_found": [],
   "_references": {}
 }
