@@ -4,9 +4,57 @@
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Personal Income/data/distribution/va_ct_bea_2015_2020_earnings_per_job.csv.xz",
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Employment/data/distribution/va_tr_acs_2015_2019_emp_rate.csv.xz"
   ],
-  "count": 8,
-  "utc_audited": "2022-11-07 16:50:25",
+  "count": 16,
+  "utc_audited": "2022-11-16 18:37:34",
   "data": [
+    {
+      "name": "va_cttrbg_2019_median_household_income.csv.xz",
+      "path": "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2019_median_household_income.csv.xz",
+      "md5": "04f4e4dbe09ac4bc24bb528c2e4b2682",
+      "size": 46356
+    },
+    {
+      "name": "ncr_cttrbg_2019_median_household_income.csv.xz",
+      "path": "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2019_median_household_income.csv.xz",
+      "md5": "04f4e4dbe09ac4bc24bb528c2e4b2682",
+      "size": 46356
+    },
+    {
+      "name": "measure_info_va_cttrbg_2019_median_household_income.json",
+      "path": "Pay and Benefits/Household Income/data/distribution/measure_info_va_cttrbg_2019_median_household_income.json",
+      "md5": "7154fe0270eee819674062f67598fd32",
+      "size": 548
+    },
+    {
+      "name": "measure_info_ncr_cttrbg_2019_median_household_income.json",
+      "path": "Pay and Benefits/Household Income/data/distribution/measure_info_ncr_cttrbg_2019_median_household_income.json",
+      "md5": "64c2b5bbd0d094edc159433c0429dc94",
+      "size": 549
+    },
+    {
+      "name": "prepare_ncr.R",
+      "path": "Pay and Benefits/Household Income/code/distribution/prepare_ncr.R",
+      "md5": "15bd584c62d32b4b13acabb32eae010c",
+      "size": 768
+    },
+    {
+      "name": "prepare_va.R",
+      "path": "Pay and Benefits/Household Income/code/distribution/prepare_va.R",
+      "md5": "aa8d31368e048fcf29316d7256d67ab2",
+      "size": 624
+    },
+    {
+      "name": "ingest.R",
+      "path": "Pay and Benefits/Household Income/code/distribution/ingest.R",
+      "md5": "ed840b463a2b977b072aa4287c3bbc25",
+      "size": 1313
+    },
+    {
+      "name": "temp",
+      "path": "Pay and Benefits/Household Income/docs/distribution/temp",
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "size": 0
+    },
     {
       "name": "va_ct_bea_2015_2020_earnings_per_job.csv.xz",
       "path": "Pay and Benefits/Personal Income/data/distribution/va_ct_bea_2015_2020_earnings_per_job.csv.xz",

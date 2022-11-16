@@ -1,0 +1,22 @@
+{
+    "median_household_income": {
+        "category": "",
+        "equity_category": "",
+        "full_name": "",
+        "long_description": "",
+        "long_name": "",
+        "measure": "median_household_income",
+        "measure_table": "va_cttrbg_2019_median_household_income",
+        "short_description": "",
+        "short_name": "",
+        "sources": [
+            {
+                "date_accessed": 2022,
+                "name": "",
+                "url": ""
+            }
+        ],
+        "statement": "",
+        "type": ""
+    }
+}
