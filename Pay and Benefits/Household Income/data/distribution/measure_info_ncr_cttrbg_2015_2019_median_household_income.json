@@ -6,7 +6,7 @@
         "long_description": "",
         "long_name": "",
         "measure": "median_household_income",
-        "measure_table": "ncr_cttrbg_2019_median_household_income",
+        "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
         "short_description": "",
         "short_name": "",
         "sources": [

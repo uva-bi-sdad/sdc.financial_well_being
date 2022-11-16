@@ -1,14 +1,14 @@
 library(data.table)
 
-dt <- fread("Pay and Benefits/Household Income/data/original/dmv_cttr_bg_2019_median_household_income.csv", colClasses = "character")
+dt <- fread("Pay and Benefits/Household Income/data/original/dmv_cttrbg_2015_2019_median_household_income.csv", colClasses = "character")
 dt_va <- dt[GEOID %like% "^51"]
 setnames(dt_va, "GEOID", "geoid")
 setnames(dt_va, "NAME", "region_name")
 setnames(dt_va, "estimate", "value")
 setnames(dt_va, "variable", "measure")
 
-dt_va_final <- dt_va[,.(geoid, region_type, region_name, measure, value, value_type = "amount")]
+dt_va_final <- dt_va[,.(geoid, region_type, region_name, measure, value)]
 
 readr::write_csv(dt_va_final,
-                 xzfile("Pay and Benefits/Household Income/data/distribution/va_cttrbg_2019_median_household_income.csv.xz"),
+                 xzfile("Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz"),
                  append = FALSE)

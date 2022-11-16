@@ -5,49 +5,49 @@
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Employment/data/distribution/va_tr_acs_2015_2019_emp_rate.csv.xz"
   ],
   "count": 16,
-  "utc_audited": "2022-11-16 19:18:54",
+  "utc_audited": "2022-11-16 19:44:44",
   "data": [
     {
-      "name": "va_cttrbg_2019_median_household_income.csv.xz",
-      "path": "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2019_median_household_income.csv.xz",
-      "md5": "04f4e4dbe09ac4bc24bb528c2e4b2682",
-      "size": 46356
+      "name": "measure_info_ncr_cttrbg_2015_2019_median_household_income.json",
+      "path": "Pay and Benefits/Household Income/data/distribution/measure_info_ncr_cttrbg_2015_2019_median_household_income.json",
+      "md5": "0dba7f620dc5bdd53595c38d7eba93d1",
+      "size": 554
     },
     {
-      "name": "ncr_cttrbg_2019_median_household_income.csv.xz",
-      "path": "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2019_median_household_income.csv.xz",
-      "md5": "04f4e4dbe09ac4bc24bb528c2e4b2682",
-      "size": 46356
+      "name": "measure_info_va_cttrbg_2015_2019_median_household_income.json",
+      "path": "Pay and Benefits/Household Income/data/distribution/measure_info_va_cttrbg_2015_2019_median_household_income.json",
+      "md5": "66444bed2916eeba3b588c1f3c6d9246",
+      "size": 553
     },
     {
-      "name": "measure_info_va_cttrbg_2019_median_household_income.json",
-      "path": "Pay and Benefits/Household Income/data/distribution/measure_info_va_cttrbg_2019_median_household_income.json",
-      "md5": "7154fe0270eee819674062f67598fd32",
-      "size": 548
+      "name": "va_cttrbg_2015_2019_median_household_income.csv.xz",
+      "path": "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz",
+      "md5": "b1958c68a70ac0612cddf5297b29cf01",
+      "size": 143544
     },
     {
-      "name": "measure_info_ncr_cttrbg_2019_median_household_income.json",
-      "path": "Pay and Benefits/Household Income/data/distribution/measure_info_ncr_cttrbg_2019_median_household_income.json",
-      "md5": "64c2b5bbd0d094edc159433c0429dc94",
-      "size": 549
+      "name": "ncr_cttrbg_2015_2019_median_household_income.csv.xz",
+      "path": "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz",
+      "md5": "b1958c68a70ac0612cddf5297b29cf01",
+      "size": 143544
     },
     {
       "name": "prepare_ncr.R",
       "path": "Pay and Benefits/Household Income/code/distribution/prepare_ncr.R",
-      "md5": "15bd584c62d32b4b13acabb32eae010c",
-      "size": 768
+      "md5": "ccc42f5a9f3c3a8be8a75ac38210d9d1",
+      "size": 754
     },
     {
       "name": "prepare_va.R",
       "path": "Pay and Benefits/Household Income/code/distribution/prepare_va.R",
-      "md5": "aa8d31368e048fcf29316d7256d67ab2",
-      "size": 624
+      "md5": "2eeeac999363346b92a19d824a3bebcf",
+      "size": 610
     },
     {
       "name": "ingest.R",
       "path": "Pay and Benefits/Household Income/code/distribution/ingest.R",
-      "md5": "ed840b463a2b977b072aa4287c3bbc25",
-      "size": 1313
+      "md5": "92bfd0bf5ed5474dd6e1250b84183e45",
+      "size": 1143
     },
     {
       "name": "temp",
