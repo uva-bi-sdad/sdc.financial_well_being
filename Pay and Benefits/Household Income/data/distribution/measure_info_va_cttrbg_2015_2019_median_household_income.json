@@ -16,7 +16,7 @@
                 "url": "https://www.census.gov/programs-surveys/acs"
             }
         ],
-        "statement": "",
+        "statement": "the median household income in {features.name} is {value}.",
         "type": "dollar"
     }
 }
