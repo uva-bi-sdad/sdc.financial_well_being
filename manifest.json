@@ -5,19 +5,19 @@
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Employment/data/distribution/va_tr_acs_2015_2019_emp_rate.csv.xz"
   ],
   "count": 16,
-  "utc_audited": "2022-11-17 12:50:32",
+  "utc_audited": "2022-11-17 14:58:29",
   "data": [
     {
       "name": "measure_info_ncr_cttrbg_2015_2019_median_household_income.json",
       "path": "Pay and Benefits/Household Income/data/distribution/measure_info_ncr_cttrbg_2015_2019_median_household_income.json",
-      "md5": "0dba7f620dc5bdd53595c38d7eba93d1",
-      "size": 554
+      "md5": "a59cd9908d40594e20de3b70e92cf49e",
+      "size": 561
     },
     {
       "name": "measure_info_va_cttrbg_2015_2019_median_household_income.json",
       "path": "Pay and Benefits/Household Income/data/distribution/measure_info_va_cttrbg_2015_2019_median_household_income.json",
-      "md5": "66444bed2916eeba3b588c1f3c6d9246",
-      "size": 553
+      "md5": "9a71d3be0d45b2a797d70ab665eae788",
+      "size": 560
     },
     {
       "name": "va_cttrbg_2015_2019_median_household_income.csv.xz",
