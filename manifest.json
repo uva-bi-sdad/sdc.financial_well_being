@@ -8,8 +8,8 @@
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv",
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv"
   ],
-  "count": 32,
-  "utc_audited": "2023-04-04 17:27:37",
+  "count": 30,
+  "utc_audited": "2023-04-04 18:18:53",
   "data": [
     {
       "name": "measure_info.json",
@@ -160,18 +160,6 @@
       "path": "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv",
       "md5": "bc115b7128b0269479e326d07fd75c14",
       "size": 947366
-    },
-    {
-      "name": "measure_info_ncr_cttr_2015_2021_income_inequality_gini_index.json",
-      "path": "Pay and Benefits/Income Inequality/data/distribution/measure_info_ncr_cttr_2015_2021_income_inequality_gini_index.json",
-      "md5": "753922c1424acb63362b8d6b9832a5ea",
-      "size": 536
-    },
-    {
-      "name": "measure_info_va_cttr_2015_2021_income_inequality_gini_index.json",
-      "path": "Pay and Benefits/Income Inequality/data/distribution/measure_info_va_cttr_2015_2021_income_inequality_gini_index.json",
-      "md5": "a9064be507382b4d78e6e965a1044dfe",
-      "size": 535
     },
     {
       "name": "va_cttr_2015_2021_income_inequality_gini_index.csv",
