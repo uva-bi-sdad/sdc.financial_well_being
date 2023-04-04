@@ -15,7 +15,7 @@
 # (acs_data$B23025_004E + acs_data$B23025_005E) / acs_data$B23025_001E
 
 
-# Calculate the GINI coefficient for census tracts in Virginia:
+# Calculate the employment rate for census tracts and counties in the NCR:
 library(tidyverse)
 library(tidycensus)
 library(sf)

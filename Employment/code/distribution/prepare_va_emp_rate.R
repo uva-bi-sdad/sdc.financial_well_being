@@ -1,4 +1,4 @@
-# Calculate the GINI coefficient for census tracts in Virginia:
+# Calculate the employment rate for census tracts and counties in Virginia:
 library(tidyverse)
 library(tidycensus)
 library(sf)
