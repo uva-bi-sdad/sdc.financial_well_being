@@ -4,10 +4,12 @@
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Employment/data/distribution/va_tr_acs_2015_2019_emp_rate.csv.xz",
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Personal Income/data/distribution/va_ct_bea_2015_2020_earnings_per_job.csv.xz",
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz",
-    "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz"
+    "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz",
+    "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv",
+    "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv"
   ],
-  "count": 31,
-  "utc_audited": "2023-04-04 17:07:53",
+  "count": 32,
+  "utc_audited": "2023-04-04 17:18:28",
   "data": [
     {
       "name": "measure_info.json",
@@ -176,6 +178,12 @@
       "path": "Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv",
       "md5": "c503b34602a02fa40bf9778cee6985b5",
       "size": 1491384
+    },
+    {
+      "name": "measure_info.json",
+      "path": "Pay and Benefits/Income Inequality/data/distribution/measure_info.json",
+      "md5": "f0675dffb7de735663a4ec0c3be6eb3c",
+      "size": 1128
     },
     {
       "name": "temp",

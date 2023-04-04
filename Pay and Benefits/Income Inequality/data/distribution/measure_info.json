@@ -11,6 +11,7 @@
     "sources": [
       {
         "name": "U.S. Census American Community Survey",
+        "location": "Table B19083",
         "date_accessed": "2023"
       }
     ]
