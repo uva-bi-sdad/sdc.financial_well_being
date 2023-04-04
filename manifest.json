@@ -6,8 +6,8 @@
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz",
     "/home/runner/work/sdc.financial_well_being_dev/sdc.financial_well_being_dev/Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz"
   ],
-  "count": 24,
-  "utc_audited": "2023-03-15 21:01:07",
+  "count": 31,
+  "utc_audited": "2023-04-04 17:07:53",
   "data": [
     {
       "name": "measure_info.json",
@@ -152,6 +152,48 @@
       "path": "Pay and Benefits/Household Income/code/distribution/prepare_ncr.R",
       "md5": "3476fe4822d932786c8803167a1874a7",
       "size": 813
+    },
+    {
+      "name": "ncr_cttr_2015_2021_income_inequality_gini_index.csv",
+      "path": "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv",
+      "md5": "bc115b7128b0269479e326d07fd75c14",
+      "size": 947366
+    },
+    {
+      "name": "measure_info_ncr_cttr_2015_2021_income_inequality_gini_index.json",
+      "path": "Pay and Benefits/Income Inequality/data/distribution/measure_info_ncr_cttr_2015_2021_income_inequality_gini_index.json",
+      "md5": "753922c1424acb63362b8d6b9832a5ea",
+      "size": 536
+    },
+    {
+      "name": "measure_info_va_cttr_2015_2021_income_inequality_gini_index.json",
+      "path": "Pay and Benefits/Income Inequality/data/distribution/measure_info_va_cttr_2015_2021_income_inequality_gini_index.json",
+      "md5": "a9064be507382b4d78e6e965a1044dfe",
+      "size": 535
+    },
+    {
+      "name": "va_cttr_2015_2021_income_inequality_gini_index.csv",
+      "path": "Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv",
+      "md5": "c503b34602a02fa40bf9778cee6985b5",
+      "size": 1491384
+    },
+    {
+      "name": "temp",
+      "path": "Pay and Benefits/Income Inequality/docs/distribution/temp",
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "size": 0
+    },
+    {
+      "name": "prepare_va.R",
+      "path": "Pay and Benefits/Income Inequality/code/distribution/prepare_va.R",
+      "md5": "9244864edb0c3a4d9db61e45312c0fb3",
+      "size": 2757
+    },
+    {
+      "name": "prepare_ncr.R",
+      "path": "Pay and Benefits/Income Inequality/code/distribution/prepare_ncr.R",
+      "md5": "8ebf319465c2e72c0ee1461ff771a7a6",
+      "size": 3358
     }
   ],
   "_references": {}

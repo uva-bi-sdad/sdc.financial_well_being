@@ -1,0 +1,22 @@
+{
+    "gini_index": {
+        "category": "",
+        "equity_category": "",
+        "full_name": "",
+        "long_description": "",
+        "long_name": "",
+        "measure": "gini_index",
+        "measure_table": "va_cttr_2015_2021_income_inequality_gini_index",
+        "short_description": "",
+        "short_name": "",
+        "sources": [
+            {
+                "date_accessed": 2022,
+                "name": "",
+                "url": ""
+            }
+        ],
+        "statement": "",
+        "type": "index"
+    }
+}
