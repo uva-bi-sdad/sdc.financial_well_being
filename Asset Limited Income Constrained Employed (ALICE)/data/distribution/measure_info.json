@@ -17,7 +17,7 @@
                 "url": "https://www.unitedforalice.org/"
             }
         ],
-        "statement": "The percentage of ALICE households in {features.name} is {value}.",
+        "statement": "{value} percent of the households in {features.name} are ALICE.",
         "type": "percent",
         "unit": ""
     },
@@ -39,7 +39,7 @@
                 "url": "https://www.unitedforalice.org/"
             }
         ],
-        "statement": "The percentage of households in poverty in{features.name} is {value}.",
+        "statement": "{value} percent of the households in {features.name} are in poverty.",
         "type": "percent",
         "unit": ""
     }
