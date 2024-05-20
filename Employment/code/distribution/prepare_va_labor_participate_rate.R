@@ -90,7 +90,7 @@ va_hdcttr_partic_rt_all <- rbind(va_hdct_partic_rt_all, va_tract_partic_rt_all)
 
 write.csv(va_hdcttr_partic_rt_all, file = xzfile("~/Git/sdc.financial_well_being_dev/Employment/data/distribution/va_hdcttr_2015_2021_labor_participate_rate.csv.xz"), row.names = FALSE)
 
-# get converted 2020 geography values
+# standardize to 2020 geographies
 ## get the tract conversion function
 source("https://github.com/uva-bi-sdad/sdc.geographies/raw/main/utils/distribution/tract_conversions.R")
 ## convert
