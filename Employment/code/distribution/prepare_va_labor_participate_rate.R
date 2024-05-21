@@ -94,11 +94,11 @@ write.csv(va_hdcttr_partic_rt_all, file = xzfile("~/git/sdc.financial_well_being
 ## get the tract conversion function
 source("https://github.com/uva-bi-sdad/sdc.geographies/raw/main/utils/distribution/tract_conversions.R")
 ## convert
-rcsv <- read.csv(xzfile("Employment/data/distribution/va_hdcttr_2015_2021_labor_participate_rate.csv.xz", open = "r"))
+rcsv <- read.csv(xzfile("Employment/data/distribution/va_hdcttr_2015_2022_labor_participate_rate.csv.xz", open = "r"))
 stnd <- standardize_all(rcsv)
 
 # save standardized file
-write.csv(stnd, file = xzfile("Employment/data/distribution/va_hdcttr_2015_2021_labor_participate_rate_std.csv.xz"), row.names = FALSE)
+write.csv(stnd, file = xzfile("Employment/data/distribution/va_hdcttr_2015_2022_labor_participate_rate_std.csv.xz"), row.names = FALSE)
 
 
 
