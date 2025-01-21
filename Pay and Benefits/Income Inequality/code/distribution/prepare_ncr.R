@@ -6,6 +6,8 @@ library(data.table)
 library(readr)
 library(magrittr)
 
+source('utils/distribution/aggregate.R')
+
 yrs <- c(2015:2023)
 ncr_counties <- c("51013" , "51059" , "51600" , "51107" , "51610" , "51683", "51685" , "51153" , "51510" , "24021" , "24031" , "24033" , "24017", "11001")
 
@@ -85,6 +87,11 @@ ncr_county_ginis_all <- ncr_county_ginis_all[, c("geoid", "measure", "value", "y
 ncr_cttr_income_inequality_gini_index <-
   rbindlist(list(ncr_tract_ginis_all, ncr_county_ginis_all))
 
+#standardize
+## get the tract conversion function
+source("https://github.com/uva-bi-sdad/sdc.geographies/raw/main/utils/distribution/tract_conversions.R")
+stnd <- standardize_all(ncr_cttr_income_inequality_gini_index)
+
 # Write file
 # fwrite(ncr_cttr_2015_2021_income_inequality_gini_index, "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv")
-readr::write_csv(ncr_cttr_income_inequality_gini_index, xzfile(paste0("Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_", min(yrs), "_", max(yrs), "_income_inequality_gini_index.csv.xz"), compression = 9))
+readr::write_csv(stnd, xzfile(paste0("Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_", min(yrs), "_", max(yrs), "_income_inequality_gini_index.csv.xz"), compression = 9))
