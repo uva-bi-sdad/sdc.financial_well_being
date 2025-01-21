@@ -3,8 +3,10 @@ library(tidyverse)
 library(tidycensus)
 library(sf)
 library(data.table)
+library(readr)
+library(magrittr)
 
-yrs <- c(2015, 2016, 2017, 2018, 2019, 2020, 2021)
+yrs <- c(2015:2023)
 ncr_counties <- c("51013" , "51059" , "51600" , "51107" , "51610" , "51683", "51685" , "51153" , "51510" , "24021" , "24031" , "24033" , "24017", "11001")
 
 # GET TRACTS
@@ -41,7 +43,7 @@ for (y in yrs) {
   }
 }
 
-ncr_tract_ginis_all <- ncr_tract_ginis_all[, c("geoid", "measure", "measure_type", "region_name", "region_type", "value", "year", "moe")]
+ncr_tract_ginis_all <- ncr_tract_ginis_all[, c("geoid", "measure", "value", "year", "moe")]
 
 # GET COUNTIES
 if(exists("ncr_county_ginis_all")) rm("ncr_county_ginis_all")
@@ -77,12 +79,12 @@ for (y in yrs) {
   }
 }
 
-ncr_county_ginis_all <- ncr_county_ginis_all[, c("geoid", "measure", "measure_type", "region_name", "region_type", "value", "year", "moe")]
+ncr_county_ginis_all <- ncr_county_ginis_all[, c("geoid", "measure", "value", "year", "moe")]
 
 # Combine tract and counties
-ncr_cttr_2015_2021_income_inequality_gini_index <-
+ncr_cttr_income_inequality_gini_index <-
   rbindlist(list(ncr_tract_ginis_all, ncr_county_ginis_all))
 
 # Write file
 # fwrite(ncr_cttr_2015_2021_income_inequality_gini_index, "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv")
-readr::write_csv(ncr_cttr_2015_2021_income_inequality_gini_index, xzfile("Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv.xz", compression = 9))
+readr::write_csv(ncr_cttr_income_inequality_gini_index, xzfile(paste0("Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_", min(yrs), "_", max(yrs), "_income_inequality_gini_index.csv.xz"), compression = 9))
